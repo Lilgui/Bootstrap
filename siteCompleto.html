@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+    <title>Olá, mundo!</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" href="#">Bob</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Ação</a>
+                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!--/Navbar-->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEx4bqEX7ntTup2j-SZ98f36aT41CQdebLcw&usqp=CAU"
+                    alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://media.vlipsy.com/vlips/bDU8tFEU/preview.jpg"
+                    alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.ytimg.com/vi/sCOQQSnlDRg/maxresdefault.jpg"
+                    alt="Terceiro Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid bg-light">
+        <div class="container">
+            <h1 class="display-4">Personagens</h1>
+            <p class="lead">Alguns dos moradores da Fenda do Biquíni</p>
+        </div>
+    </div>
+    <!--/Jumbotron-->
+
+    <!--Cards-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card text-center p-3">
+                <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Bob Esponja</h5>
+                    <p class="card-text">Uma esponja com calça quadrada.</p>
+                </div>
+            </div>
+            <div class="card text-center p-3">
+                <img class="card-img-top" src="https://64.media.tumblr.com/6e4908ef611bbc13105f148431551685/tumblr_p5jfkbXfgK1x9pn5ho1_1280.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Patrick</h5>
+                    <p class="card-text">Uma estrela do mar rosa</p>
+                </div>
+            </div>
+            <div class="card text-center p-3">
+                <img class="card-img-top" src="https://pbs.twimg.com/media/EajWmQ5WAAEVk1L.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Lula Molusco</h5>
+                    <p class="card-text">Um polvo mal humorado</p>
+                </div>
+            </div>
+            <div class="card text-center p-3">
+                <img class="card-img-top" src="https://2.bp.blogspot.com/-KPn-JAMvWwU/W4mBRWiPcNI/AAAAAAAAChA/tv2ANPqzRpASqyTG_HXvby0NnVZRbALMACLcBGAs/s1600/Imagem7.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Sandy Bochechas</h5>
+                    <p class="card-text">Ela é um esquilo antropomórfico que usa roupa de mergulho</p>
+                </div>
+            </div>
+            <div class="card text-center p-3">
+                <img class="card-img-top" src="https://pbs.twimg.com/media/DG9bxJYXsAArc8i.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Sr. Cirigueiejo</h5>
+                    <p class="card-text">Um caranguejo muito ganancioso</p>
+                </div>
+            </div>
+            <div class="card text-center p-3">
+               <img class="card-img-top" src="https://www.fasdapsicanalise.com.br/content/uploads/2018/01/plankton-bob-esponja.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Plakton</h5>
+                    <p class="card-text">Um plâncton que quer a fórmula do Hamburguer de Siri</p>
+                </div>
+            </div>
+            <div class="card p-3 text-center p-3">
+                <img class="card-img-top" src="https://i.pinimg.com/736x/67/9b/a4/679ba4f0033891f7dc1a69b09200753d.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Gary</h5>
+                    <p class="card-text">Um caracol de estimação do Bob</p>
+                </div>
+            </div>
+        </div>
+
+        <!--/Cards-->
+
+        <!--Texto e vídeo-->
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+                <h3>Sinopse</h3>
+                <p>
+                    Bob Esponja é uma esponja marinha bondosa, otimista, alegre, ingênua e amigável que mora na cidade submarina da Fenda do Biquíni juntamente com diversas criaturas antropomórficas. 
+                    Bob trabalha como cozinheiro no "Krusty Krab" (ou "Siri Cascudo", na versão em português), um dos principais restaurantes de fast-food da região, 
+                    com seu chefe Eugene H. Sirigueijo e seu também esnobe vizinho Lula Molusco. Nas horas vagas, Bob Esponja se diverte "caçando água viva", praticando caratê ou até mesmo soltando bolhas de sabão.[
+                </p>
+                <p>
+                    Costuma divertir-se na companhia de seu melhor amigo e vizinho, Patrick Estrela.  Contudo, sua inteligência relativa, ingenuidade exacerbada e comportamento intrigante faz com que não compreenda com clareza as circunstâncias a sua volta;
+                    como por exemplo, acreditar que Lula Molusco é um de seus amigos quando, na realidade, sequer suporta sua presença.
+                    Algo constantemente retratado na série animada é sua dificuldade em dirigir e, consequentemente, passar no teste de direção da escola local.
+                </p>
+                <p>
+                    Bob Esponja vive em uma icônica casa-abacaxi com Gary, seu caracol de estimação. Em junho de 2020, pondo um fim a especulações quanto à sexualidade de Bob Esponja, a Nickelodeon revelou oficialmente que o personagem é LGBT.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wRhj0Fas0OY" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!--Texto e vídeo-->
+
+        <!--Contato-->
+
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h4 class="text-center">
+                    Entre em contato conosco
+                </h4>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Endereço de e-mail</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                    </div>
+
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Assunto</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <div class="form-group d-flex justify-content-end">
+                        <button class="btn btn-outline-success">Enviar</button>
+                    </div>
+                  </form>
+            </div>
+
+            <div class="col-md-6">
+                <iframe class="w-100"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250129.08802573054!2d165.24361918838315!3d11.604304021624593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x644c2180a24fadbf%3A0x4c3f21ce9753a027!2sAtol%20de%20Bikini!5e0!3m2!1spt-BR!2sbr!4v1606323692797!5m2!1spt-BR!2sbr" 
+                width="400" 
+                height="250" 
+                frameborder="0" 
+                style="border:0;" 
+                allowfullscreen="" 
+                aria-hidden="false" 
+                tabindex="0">
+            </iframe>
+            </div>
+
+        </div>
+        <!--/Contato-->
+
+        <!--Rodapé-->
+
+        <hr>
+        <footer>
+
+            <div class="row mb-3">
+                <div class="col-md-12 d-flex justify-content-center">
+
+                    <a href="https://www.facebook.com/guilherme.maximoendo" target="_blank" class="p-3">
+                        <img class="tm-social " src="assets/img/facebook.png" alt="Logo do facebook">
+                    </a>
+
+                    <a href="https://www.instagram.com/guimaxjp/" target="_blank" class="p-3">
+                        <img class="tm-social " src="assets/img/instagram (1).png" alt="Logo do instagram">
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/guilherme-m%C3%A1ximo-7880a41a3/" target="_blank" class="p-3">
+                        <img class="tm-social " src="assets/img/linkedin (3).png" alt="Logo do linkedin">
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <p class="text-center">
+                    Todos os direitos reservados: Guilherme Máximo &copy
+                </p>
+            </div>
+
+        </footer>
+        <!--Rodapé-->
+
+    </div>
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
